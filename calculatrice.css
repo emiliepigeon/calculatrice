@@ -1,0 +1,53 @@
+#container{
+    position: relative;
+    height: 480px;
+    width: 250px;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(30,30,36);
+    background: linear-gradient(45deg, rgba(30,30,36,1) 0%, rgba(123,123,136,1) 35%, rgba(188,194,196,1) 100%);
+    left: calc(50% - 150px);
+}
+
+#output{
+    position: absolute;
+    height: 50px;
+    width: 215px;
+    border: grey solid 1px;
+    top: 10px;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact;
+    bottom: 0;
+    font-size:30px;
+}
+
+input{
+    margin: 0;
+}
+
+button {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: Impact;
+    color: white;
+    background: rgb(30,30,36);
+    background: linear-gradient(180deg, rgba(30,30,36,1) 0%, rgba(123,123,136,1) 35%, rgba(188,194,196,1) 100%);}
+
+#reset {
+    height: 25px;
+    width:104px;
+    background: crimson;
+}
+
+#resultat {
+    height: 25px;
+    width:104px;
+    left: 128px;
+    background: aquamarine;
+}
